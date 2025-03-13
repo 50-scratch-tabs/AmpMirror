@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        repository: AmpM0d/scratch-gui
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
